@@ -26,7 +26,7 @@ bool isValidVariableName(const string& name)
     if (name == "int" || name == "char" || name == "double" || name == "float" || name == "if" ||
         name == "else" || name == "while" || name == "for" || name == "return" || name == "class" ||
         name == "do" || name == "new" || name == "switch" || name == "long" || name == "operator" ||
-        name == "template" || name == "break" || name == "string")
+        name == "template" || name == "break" || name == "string" || name == "main")
     {
         cout << "- False" << endl;
         cout << "- The name '" << name << "' is a reserved keyword." << endl;
